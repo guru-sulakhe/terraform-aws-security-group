@@ -18,3 +18,6 @@ resource "aws_security_group" "main" {
         }
     )
 }
+
+#Note: 
+    #During module development the variable would be included empty,which means the user has to supply the values to the variables which are empty in the module development
